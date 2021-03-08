@@ -1,0 +1,39 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.layout {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.eeuu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid;
+}
+
+.chile {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.update {
+	display: flex;
+	flex-direction: row;
+
+}
